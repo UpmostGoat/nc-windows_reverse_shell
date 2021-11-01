@@ -1,0 +1,1 @@
+stty raw -echo; (stty size; cat) | nc -lvnp INSERT_PORT_HERE -s IP_OF_YOUR_SERVER_HERE

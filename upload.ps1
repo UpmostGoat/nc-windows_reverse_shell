@@ -1,4 +1,4 @@
-﻿$DropBoxAccessToken = Get-Content -Path X:\apiToken.txt
+﻿$DropBoxAccessToken = Get-Content -Path $env:USERPROFILE\Documents\drop\apiToken.txt
 
 function DropBox-Upload {
 
